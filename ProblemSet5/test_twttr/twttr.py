@@ -1,7 +1,6 @@
 def main():
     tweet = input('What is happening?! ')
-    x = shorten(tweet)
-    print(x)
+    print(shorten(tweet))
 
 def shorten(word):
     vowels = ['a', 'e', 'i', 'o', 'u']
